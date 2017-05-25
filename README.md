@@ -3,7 +3,7 @@ This library provide LifecycleRxJavaBinder class for bind Android Architecture C
 
 You can use LifecycleRxJavaBinder class like this.
 
-``
+
 
 ```java
 public class MainActivity extends LifecycleActivity {
