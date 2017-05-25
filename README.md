@@ -14,6 +14,7 @@ public class MainActivity extends LifecycleActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         Observable.timer(1, TimeUnit.SECONDS).repeat()
             .compose(LifecycleRxJavaBinder.applyObservable(this))
             .map(aLong -> "Tick"+(i++))
