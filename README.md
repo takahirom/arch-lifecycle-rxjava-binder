@@ -1,5 +1,5 @@
 # arch-lifecycle-rxjava-binder
-This library provides LifecycleRxJavaBinder class for bind Android Architecture Component LifecycleOwner.
+This library provides LifecycleRxJavaBinder class for binding Android Architecture Component LifecycleOwner.
 
 You can use LifecycleRxJavaBinder class like this.
 
